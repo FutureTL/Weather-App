@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(6, 23, 23);
+}
+
+.search{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.search input{ 
+    
+    height:40px;
+    padding:10px;
+    border-radius:30px;
+    margin-left: 40px;
+    border-color:rgb(188, 255, 255);
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    font-size:16px;
+   
+    
+}
+
+.search button{
+    border:0;
+    background:#ebfffc;
+    border-radius:50%;
+    width: 40px;
+    height:40px;
+    margin-right:10px;
+}
+.search button img{
+    width: 16px;
+    margin-top: 5px;
+    
+}
+
+.card{
+    width:400px;
+    height:600px;
+    background-color:aqua;
+    border-radius:10px;
+    margin: 100px auto 0;
+    padding: 45px 35px;
+    background: linear-gradient(140deg, #00feba, #5b548a);
+    text-align:center;
+}
+.temperature{
+
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+.city{
+    font-size: 35px;
+    font-weight: 300;
+    color:#fff;
+}
+.col{
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+    color:#fff;
+}
+
+.col img{
+    width:50px;
+     height:50px;
+}
